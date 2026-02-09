@@ -1,7 +1,64 @@
 baseURL = 'https://maxschroeder.github.io/'
 languageCode = 'en-us'
-title = "Max Schroeder's Portfolio"
+title = "Max Schroeder | Game Systems Designer"
 theme = 'PaperMod'
+
+[menu]
+
+  [[menu.main]]
+    identifier = "about"
+    name = "About"
+    url = "/about/"
+    weight = 1
+
+    [[menu.main]]
+    identifier = "contact"
+    name = "Contact"
+    url = "/contact/"
+    weight = 2
+
+
+
+
+[imageProcessing]
+
+  # Enable auto resize
+  # Includes "img" and "figure" shortcodes
+  autoResize = true
+  
+  # Convert "tiff" files to the format below
+  # since the most used browsers don't support it
+  fallbackOptions = "jpeg"
+  
+  # Fill options for Open Graph and Twitter card images
+  # These images are also used in the Schema.org structured data
+  openGraphFillOptions = "1200x630"
+  twitterFillOptions = "1280x640"
+  
+  # Extra formats (along JPEG/PNG)
+  [[imageProcessing.extraFormats]]
+    formatOptions = "webp"
+    mediaType = "image/webp"
+    minVersion = "0.83"
+  
+  # Sizes at which images are resized
+  # Keep the sizes in descending order
+  # The smallest size will be used as the default image
+  [[imageProcessing.sizes]]
+    resizeOptions = "1280x"
+    descriptor = "1280w"
+    minWidth = 1280
+  
+  [[imageProcessing.sizes]]
+    resizeOptions = "960x"
+    descriptor = "960w"
+    minWidth = 960
+  
+  [[imageProcessing.sizes]]
+    resizeOptions = "640x q90"
+    descriptor = "640w"
+    minWidth = 640
+
 
 [caches]
   [caches.images]
