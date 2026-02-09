@@ -1,0 +1,8 @@
+baseURL = 'https://maxschroeder.github.io/'
+languageCode = 'en-us'
+title = "Max Schroeder's Portfolio"
+theme = 'PaperMod'
+
+[caches]
+  [caches.images]
+    dir = ':cacheDir/images'
