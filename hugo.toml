@@ -1,4 +1,4 @@
-baseURL = 'https://maximoschro.github.io/maxschroeder.github.io/'
+baseURL = 'https://maximoschro.github.io/'
 languageCode = 'en-us'
 title = "Max Schroeder | Game Systems Designer"
 theme = 'PaperMod'
