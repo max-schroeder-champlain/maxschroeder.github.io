@@ -27,6 +27,9 @@ theme = 'PaperMod'
     source = 'static'
     target = 'assets'
 
+[params]
+  defaultTheme = "dark"
+
 [caches]
   [caches.images]
     dir = ':cacheDir/images'
