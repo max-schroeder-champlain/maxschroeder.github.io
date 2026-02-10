@@ -17,7 +17,9 @@ theme = 'PaperMod'
     url = "/contact/"
     weight = 2
 
-imgPath = "img"
+
+[params]
+  imgPath = "img"
 
 
 
