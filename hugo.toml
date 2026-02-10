@@ -21,6 +21,9 @@ theme = 'PaperMod'
 [params]
   imgPath = "img"
 
+[imageProcessing]
+  autoResize = false
+  
 [caches]
   [caches.images]
     dir = ':cacheDir/images'
